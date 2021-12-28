@@ -1,11 +1,11 @@
 <template>
   <div>
-    <p>Componentes</p>
+    <Message :msg="msg" v-show="msg"/>
     <div>
-      <form action="" id="burger-form">
+      <form action="" id="burger-form" @submit="createBurger">
         <div class="input-container">
           <label for="name">Nome do cliente</label>
-          <input type="text" id="name" name="name" v-model=name placeholder="Digite o seu nome">
+          <input type="text" id="name" name="name" v-model=nome placeholder="Digite o seu nome">
         </div>
         <div class="input-container">
           <label for="pao">Escolha o pão</label>
@@ -44,6 +44,8 @@
 </template>
 
 <script>
+import Message from './Message.vue'
+
 export default {
   name: "BurgerForm",
   data() {
@@ -54,7 +56,6 @@ export default {
       nome: null,
       carne: null,
       opcionais: [],
-      status: "Solicitado",
       msg: null
     }
   },
@@ -66,11 +67,47 @@ export default {
       this.paes = data.paes;
       this.carnes = data.carnes;
       this.opcionaisdata = data.opcionais;
+    },
+    async createBurger(e) {
+      e.preventDefault();
+
+      const data = {
+        nome: this.nome,
+        carne: this.carne,
+        pao: this.pao,
+        opcionais: Array.from(this.opcionais),
+        status: "Solicitado"
+      }
+
+      const dataJson = JSON.stringify(data);
+
+      const req = await fetch("http://localhost:3000/burgers", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: dataJson
+      });
+
+      const res = await req.json()
+
+      this.msg = `Pedido Nº ${res.id} realizado com sucesso`
+
+      // Limpar msg
+      setTimeout(() => this.msg = "", 3000);
+
+// Limpar os campos
+      this.nome = "";
+      this.carne = "";
+      this.pao = "";
+      this.opcionais = "";
     }
   },
   mounted() {
     this.getIngredientes()
+  },
+  components: {
+    Message
   }
+
 }
 </script>
 
@@ -78,6 +115,7 @@ export default {
   #burger-form{
     max-width: 400px;
     margin: 0 auto;
+    margin-top: 40px;
   }
 
   .input-container{
