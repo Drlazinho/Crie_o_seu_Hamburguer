@@ -115,7 +115,6 @@ export default {
   #burger-form{
     max-width: 400px;
     margin: 0 auto;
-    margin-top: 40px;
   }
 
   .input-container{
