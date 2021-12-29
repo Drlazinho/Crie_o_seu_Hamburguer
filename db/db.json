@@ -79,17 +79,6 @@
   ],
   "burgers": [
     {
-      "nome": null,
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
       "nome": "Lázaro Pimentel Bonfim",
       "carne": "Maminha",
       "pao": "Italiano Branco",
@@ -97,23 +86,8 @@
         "Bacon",
         "Salame"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 3
-    },
-    {
-      "nome": "Lázaro Pimentel Bonfim",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cebola roxa",
-        "Pepino",
-        "Tomate",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 7
     },
     {
       "nome": "Viviane Pimentel",
@@ -127,7 +101,7 @@
         "Tomate",
         "Pepino"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 8
     }
   ]
