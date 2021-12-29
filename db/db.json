@@ -112,46 +112,6 @@
       "id": 3
     },
     {
-      "nome": "Vivane",
-      "carne": "Maminha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cebola roxa",
-        "Pepino",
-        "Tomate",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "Viviane Pimentel",
-      "carne": "Picanha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Cheddar",
-        "Bacon",
-        "Tomate",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado",
-      "id": 5
-    },
-    {
-      "nome": "Lázaro Pimentel Bonfim",
-      "carne": "Picanha",
-      "pao": "Integral",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 6
-    },
-    {
       "nome": "Lázaro Pimentel Bonfim",
       "carne": "Maminha",
       "pao": "Italiano Branco",
@@ -165,6 +125,21 @@
       ],
       "status": "Solicitado",
       "id": 7
+    },
+    {
+      "nome": "Viviane Pimentel",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Cebola roxa",
+        "Salame",
+        "Bacon",
+        "Cheddar",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 8
     }
   ]
 }
