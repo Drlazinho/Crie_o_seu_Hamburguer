@@ -90,17 +90,6 @@
       "id": 1
     },
     {
-      "nome": "Lázaro",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Solicitado",
-      "id": 2
-    },
-    {
       "nome": "Lázaro Pimentel Bonfim",
       "carne": "Maminha",
       "pao": "Italiano Branco",
