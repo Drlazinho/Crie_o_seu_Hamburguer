@@ -8,8 +8,17 @@ Site que faz pedidos de hamburguers, projeto criado com objetivo de desenvolver 
 - [x] Sistema de Mensagens
 - [x] Atualização de pedidos/status
 
-Resultado Final 
+## Resultado Final 
 
+### Página Principal (Fazer Pedidos)
+
+<img src="./src/assets/page_home.png" style="width:50%"/>
+
+<hr>
+
+### Página de Pedidos (Gerencia pedidos)
+
+<img src="./src/assets/page_delivery.png" style="width:50%"/>
 
 
 ## Project setup
