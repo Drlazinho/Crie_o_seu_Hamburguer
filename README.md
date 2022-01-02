@@ -1,5 +1,17 @@
 # make_your_burguer_in_vue
 
+Site que faz pedidos de hamburguers, projeto criado com objetivo de desenvolver habilidades em VUE.js.
+
+- [x] Criando API com JSON server
+- [x] Implementação de Vue Router
+- [x] Aplicação em componentes
+- [x] Sistema de Mensagens
+- [x] Atualização de pedidos/status
+
+Resultado Final 
+
+
+
 ## Project setup
 ```
 npm install
