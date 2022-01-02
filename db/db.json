@@ -77,32 +77,5 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [
-    {
-      "nome": "Lázaro Pimentel Bonfim",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Em produção",
-      "id": 3
-    },
-    {
-      "nome": "Viviane Pimentel",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Cebola roxa",
-        "Salame",
-        "Bacon",
-        "Cheddar",
-        "Tomate",
-        "Pepino"
-      ],
-      "status": "Finalizado",
-      "id": 8
-    }
-  ]
+  "burgers": []
 }
